@@ -44,7 +44,7 @@ data.info()
 data.isnull().sum()
 data["left"].value_counts() 
 ```
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/9bd38626-b84e-46e9-b533-03464956c47e">
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/9bd38626-b84e-46e9-b533-03464956c47e">
 
 ```
 from sklearn.preprocessing import LabelEncoder 
