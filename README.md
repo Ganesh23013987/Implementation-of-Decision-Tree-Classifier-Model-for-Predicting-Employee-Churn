@@ -23,7 +23,7 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 ```
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: GANESH D
+Developed by:   GANESH D
 RegisterNumber: 212223240035
 */
 ```
@@ -39,6 +39,12 @@ data.head()
 data.info()
 ```
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/362a2428-4975-4e2a-bb6d-75d0b881cd35">
+
+```
+data.isnull().sum()
+data["left"].value_counts() 
+```
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/9bd38626-b84e-46e9-b533-03464956c47e">
 
 ```
 from sklearn.preprocessing import LabelEncoder 
