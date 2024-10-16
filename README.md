@@ -69,7 +69,7 @@ accuracy=accuracy_score(y_test,y_pred)
 print(accuracy) 
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/5c0830d4-e631-4b81-a910-acc840d43b7e">
+<img width="1050" alt="image" src="https://github.com/user-attachments/assets/5c0830d4-e631-4b81-a910-acc840d43b7e">
 
 
 ## Result:
