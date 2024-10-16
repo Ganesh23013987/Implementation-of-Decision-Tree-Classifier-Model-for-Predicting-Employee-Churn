@@ -67,9 +67,12 @@ y_pred=dt.predict(x_test)
 from sklearn.metrics import accuracy_score
 accuracy=accuracy_score(y_test,y_pred) 
 print(accuracy) 
-dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/64a0580b-03f3-4c23-9a48-c35a85290c3e">
+
+```
+dt.predict([[0.5,0.8,9,260,6,0,1,2]])
+```
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/95c35f14-89cf-4ea5-b533-0c5dc7df4625">
 
 ## Result:
