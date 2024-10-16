@@ -38,7 +38,7 @@ data.head()
 ```
 data.info()
 ```
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/362a2428-4975-4e2a-bb6d-75d0b881cd35">
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/362a2428-4975-4e2a-bb6d-75d0b881cd35">
 
 ```
 from sklearn.preprocessing import LabelEncoder 
