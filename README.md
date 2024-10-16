@@ -33,12 +33,12 @@ import pandas as pd
 data = pd.read_csv("/content/Employee .csv")
 data.head()
 ```
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/499a4039-a824-45de-835b-a99337564c58">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/499a4039-a824-45de-835b-a99337564c58">
 
 ```
 data.info()
 ```
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/362a2428-4975-4e2a-bb6d-75d0b881cd35">
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/362a2428-4975-4e2a-bb6d-75d0b881cd35">
 
 ```
 from sklearn.preprocessing import LabelEncoder 
@@ -46,7 +46,7 @@ le=LabelEncoder()
 data["salary"]=le.fit_transform(data["salary"]) 
 data.head() 
 ```
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/d951a005-337f-47e2-b782-441d83be78bd">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/d951a005-337f-47e2-b782-441d83be78bd">
 
 ```
 x=data[["satisfaction_level", "last_evaluation", "number_project","average_montly_hours", "time_spend_company",
@@ -55,7 +55,7 @@ x.head()
 y=data["left"]
 x.head()
 ```
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/9af09064-2513-437b-9388-ee424b14156c">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/9af09064-2513-437b-9388-ee424b14156c">
 
 ```
 from sklearn.model_selection import train_test_split 
@@ -69,7 +69,7 @@ accuracy=accuracy_score(y_test,y_pred)
 print(accuracy) 
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
-<img width="850" alt="image" src="https://github.com/user-attachments/assets/5c0830d4-e631-4b81-a910-acc840d43b7e">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/5c0830d4-e631-4b81-a910-acc840d43b7e">
 
 
 ## Result:
